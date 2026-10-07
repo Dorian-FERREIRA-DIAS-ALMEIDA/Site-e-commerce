@@ -1,4 +1,6 @@
-body{
+html,body{
+  margin: 0;
+  padding: 0;
   background-color: black;
   font-family: "arial helvetica sans-serif", system-ui;
 }
@@ -8,38 +10,38 @@ body{
   display: flex;
   justify-content: center;
   align-items: center;
+  font-size: 20px;
 }
 .underline{
   margin:10px;
   color: aliceblue;
-
 }
 .underline:hover{
   border-bottom: solid 2px aliceblue;
 }
-#accueil{
-  margin-left: 250px;
-}
 #logo_principal{
-  margin-right: 200px;
+  margin-top: 10px;
+  position: relative;
+  right: 450px;
 }
-#catalogue{
-  margin-top: 200px;
+#img1{
+  margin-top: 50px;
   color: aliceblue;
   min-height: calc(100svh - 76px);
   position: relative;
   display: flex;
-  background: url("../img/falcon-9-spacex.jpg") center 44% / cover no-repeat;
-  width: 100%;
-  height: 100%;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0) 100%), url("../img/falcon-9-spacex.jpg") center / cover no-repeat ;
 }
-#search{
-  color: aliceblue ;
+#search {
+  color: aliceblue;
 }
-#search\ icon{
-  position: relative;
-  display: inline-flex;
-  background-color: aliceblue;
-  color: black;
-  border: 1px solid black ;
+.search{
+  margin:10px;
+  color: aliceblue;
+}
+#request-not-found{
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
 }
