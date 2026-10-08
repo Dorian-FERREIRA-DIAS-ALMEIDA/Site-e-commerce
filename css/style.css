@@ -42,7 +42,7 @@ html,body{
   min-height: calc(100svh - 76px);
   position: relative;
   display: flex;
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0) 100%), url("../img/falcon-9-spacex.jpg") center / cover no-repeat ;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0) 100%), url("../img/Accueil/falcon-9-spacex.jpg") center / cover no-repeat ;
 }
 #search {
   color: aliceblue;
