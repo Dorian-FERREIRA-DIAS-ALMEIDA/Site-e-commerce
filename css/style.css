@@ -59,3 +59,19 @@ html,body{
   top: 50%;
   transform: translate(-50%, -50%);
 }
+#boxes{
+  position-area: center;
+  display: flex;
+  flex-direction: row;
+  margin: 10rem;
+  justify-content: center;
+}
+#column1,#column2{
+  position-area: center;
+  position: relative;
+  margin: 2rem;
+}
+.box{
+  margin: 2em;
+  border:10px aliceblue;
+}
