@@ -4,6 +4,12 @@ html,body{
   background-color: black;
   font-family: "arial helvetica sans-serif", system-ui;
   color: aliceblue;
+  min-height: 100%;
+}
+body{
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 .barre_top{
   background-color: black;
@@ -42,7 +48,7 @@ html,body{
   min-height: calc(100svh - 76px);
   position: relative;
   display: flex;
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0) 100%), url("../img/Accueil/falcon-9-spacex.jpg") center / cover no-repeat ;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0) 150%),linear-gradient(to top, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0) 10%), url("../img/Accueil/falcon-9-spacex.jpg") center / cover no-repeat ;
 }
 #search {
   color: aliceblue;
@@ -63,15 +69,48 @@ html,body{
   position-area: center;
   display: flex;
   flex-direction: row;
-  margin: 10rem;
+  margin: 2rem 5rem 2rem 5rem;
   justify-content: center;
 }
 #column1,#column2{
   position-area: center;
   position: relative;
-  margin: 2rem;
+  margin: 1rem 5rem 1rem 5rem;
 }
 .box{
+  width: 500px;
+  height: 550px;
   margin: 2em;
-  border:10px aliceblue;
+  border: 1px aliceblue solid;
+  border-radius: 10px;
+}
+.logo_agency{
+  display: flex;
+  justify-content: center;
+}
+.text_box{
+  overflow-wrap: break-word;
+}
+#footer{
+  margin-top: auto;
+  background-color: #191a1c;
+  display: flex;
+  position-area: bottom;
+  align-items: center;
+  justify-content: space-between;
+  border-top: 1px #191a1c solid;
+}
+#text_footer{
+  margin-left: 2rem;
+}
+#github{
+  display: flex;
+  justify-content: right;
+  margin-right: 2rem;
+}
+#form{
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
 }
