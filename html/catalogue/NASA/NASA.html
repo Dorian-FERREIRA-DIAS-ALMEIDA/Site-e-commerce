@@ -2,7 +2,7 @@
 <html lang="fr">
 <head>
   <meta charset="UTF-8">
-  <title>Reprodution de la Falcon 9 en 1/68</title>
+  <title>Nos produits de la NASA</title>
   <link rel="stylesheet" href="../../../css/reset.css">
   <link rel="stylesheet" href="../../../css/style.css">
   <script src="https://kit.fontawesome.com/c0442f4e7f.js" crossorigin="anonymous"></script>
@@ -13,7 +13,6 @@
     <a href="../../main/index.html" id="logo_principal"> <img alt="logo de AstraVault" src="../../../img/Accueil/transparent-logo.png" width="246" height="95"> </a>
     <div>
       <a class="underline" id="accueil" href="../../main/index.html" style="text-decoration:none">Accueil</a>
-      <a class="underline" id="tendance" href="../../main/trending.html" style="text-decoration:none">En tendance</a>
       <a class="underline" id="SpaceX_link" href="../SpaceX/SpaceX.html" style="text-decoration:none">SpaceX</a>
       <a class="underline" id="NASA_link" href="../NASA/NASA.html" style="text-decoration:none">NASA</a>
       <a class="underline" id="ESA_link" href="../ESA/ESA.html" style="text-decoration:none">ESA</a>
@@ -25,23 +24,45 @@
       </label> <a class="search" href="../../main/search.html" style="text-decoration:none" ><i class="fa-solid fa-magnifying-glass"></i></a>
     </div>
     <div>
-      <a class="underline" id="panier" href="" style="text-decoration:none">Panier</a>
       <a class="underline" id="support" href="../../main/support.html" style="text-decoration:none">Support</a>
     </div>
   </div>
 </div>
-<div id="boxes">
+<h1 class="name_catalogue">
+    Voici nos produits de la NASA
+</h1>
+<div id="boxes" class="catalogue_grid">
   <div id="column1">
-    <div class="box">
-      <div id="nasa_img">
-        <a href="../NASA/Gemini.html"> <img alt="Photo de la capsule Gemini" src="../500px" width="342" height="286"> </a>
+    <a href="Gemini.html" class="box_link" style="text-decoration:none">
+      <div class="box_nasa">
+        <h1>Gemini</h1>
+        <h2>Le programme biplace de la NASA</h2>
+        <p>Capsule à deux astronautes utilisée entre 1965 et 1966. Elle a servi à tester les rendez-vous orbitaux, les amarrages et les sorties dans l'espace avant les missions Apollo.</p>
       </div>
-    </div>
+    </a>
+    <a href="Titan-2.html" class="box_link" style="text-decoration:none">
+      <div class="box_nasa">
+        <h1>Titan II</h1>
+        <h2>Le lanceur des missions Gemini</h2>
+        <p>Fusée dérivée d'un missile balistique, choisie pour sa fiabilité. Elle a lancé les douze vols du programme Gemini, habités ou non.</p>
+      </div>
+    </a>
   </div>
   <div id="column2">
-    <div class="box">
-
-    </div>
+    <a href="Saturn-V.html" class="box_link" style="text-decoration:none">
+      <div class="box_nasa">
+        <h1>Saturn V</h1>
+        <h2>La fusée des missions lunaires</h2>
+        <p>Haute d'environ 110 mètres, c'est la fusée la plus puissante jamais utilisée avec succès. Elle a envoyé les astronautes d'Apollo sur la Lune entre 1969 et 1972.</p>
+      </div>
+    </a>
+    <a href="Shuttle.html" class="box_link" style="text-decoration:none">
+      <div class="box_nasa">
+        <h1>Navette spatiale</h1>
+        <h2>Le premier vaisseau réutilisable</h2>
+        <p>De 1981 à 2011, la navette a effectué 135 missions : mise en orbite de satellites, lancement du télescope Hubble et construction de la Station spatiale internationale.</p>
+      </div>
+    </a>
   </div>
 </div>
 <footer id="footer">
